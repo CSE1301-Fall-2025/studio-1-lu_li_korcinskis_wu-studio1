@@ -17,7 +17,10 @@ public class HiOne {
 		//      Hi, Pat.  How are you?
 		// if the value of name is "Pat"
 		//
-
+		if (name.contentEquals("Pat")){
+			System.out.print("Hi " + name + " how are you?"); 
+		
+		}
 	}
 
-}
+	}
